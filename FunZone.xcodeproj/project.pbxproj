@@ -10,30 +10,131 @@
 		8437AD3C28401E0900ACA07F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437AD3B28401E0900ACA07F /* LoginViewController.swift */; };
 		8437AD3E28401E2100ACA07F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437AD3D28401E2100ACA07F /* SignUpViewController.swift */; };
 		8437AD4028401E3200ACA07F /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437AD3F28401E3200ACA07F /* MusicViewController.swift */; };
-		8437AD4228401E4700ACA07F /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437AD4128401E4700ACA07F /* BooksViewController.swift */; };
 		8437AD4428401E5A00ACA07F /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437AD4328401E5A00ACA07F /* NotesViewController.swift */; };
 		8437AD4628401E6D00ACA07F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437AD4528401E6D00ACA07F /* SearchViewController.swift */; };
 		84729EE42847AC880021F061 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84729EE32847AC880021F061 /* DBHelper.swift */; };
 		84729EE92847C1D50021F061 /* UserInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84729EE72847C1D50021F061 /* UserInfo+CoreDataClass.swift */; };
 		84729EEA2847C1D50021F061 /* UserInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84729EE82847C1D50021F061 /* UserInfo+CoreDataProperties.swift */; };
+		84879E832848FF2C006DF9DC /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84879E822848FF2C006DF9DC /* PDFViewController.swift */; };
+		84879EC828490637006DF9DC /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84879EC728490637006DF9DC /* MusicTableViewCell.swift */; };
+		84879ECA28491BC0006DF9DC /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84879EC928491BBF006DF9DC /* MusicPlayerViewController.swift */; };
+		848F02B3284D23A5001F65A6 /* Portal2-20-I_Made_It_All_Up.mp3 13-45-59-380.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F0287284D2393001F65A6 /* Portal2-20-I_Made_It_All_Up.mp3 13-45-59-380.mp3 */; };
+		848F02B4284D23A5001F65A6 /* Portal2-06-Overgrowth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F0288284D2394001F65A6 /* Portal2-06-Overgrowth.mp3 */; };
+		848F02B5284D23A5001F65A6 /* Portal2-10-There_She_Is.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F0289284D2394001F65A6 /* Portal2-10-There_She_Is.mp3 */; };
+		848F02B6284D23A5001F65A6 /* Portal2-15-I_Saw_a_Deer_Today.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F028A284D2395001F65A6 /* Portal2-15-I_Saw_a_Deer_Today.mp3 */; };
+		848F02B7284D23A5001F65A6 /* Portal2-14-Love_as_a_Construct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F028B284D2395001F65A6 /* Portal2-14-Love_as_a_Construct.mp3 */; };
+		848F02B8284D23A5001F65A6 /* Portal2-10-There_She_Is.mp3 13-45-59-401.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F028C284D2396001F65A6 /* Portal2-10-There_She_Is.mp3 13-45-59-401.mp3 */; };
+		848F02B9284D23A5001F65A6 /* Portal2-03-999999.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F028D284D2396001F65A6 /* Portal2-03-999999.mp3 */; };
+		848F02BA284D23A5001F65A6 /* Portal2-08-Haunted_Panels.mp3 13-45-59-392.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F028E284D2396001F65A6 /* Portal2-08-Haunted_Panels.mp3 13-45-59-392.mp3 */; };
+		848F02BB284D23A5001F65A6 /* Portal2-09-The_Future_Starts_With_You.mp3 13-45-59-396.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F028F284D2397001F65A6 /* Portal2-09-The_Future_Starts_With_You.mp3 13-45-59-396.mp3 */; };
+		848F02BC284D23A5001F65A6 /* Portal2-19-Turret_Wife_Serenade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F0290284D2397001F65A6 /* Portal2-19-Turret_Wife_Serenade.mp3 */; };
+		848F02BD284D23A5001F65A6 /* Portal2-17-I_Am_Different.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F0291284D2397001F65A6 /* Portal2-17-I_Am_Different.mp3 */; };
+		848F02BE284D23A5001F65A6 /* Portal2-21-Comedy_Equals_Tragedy_Plus_Time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F0292284D2398001F65A6 /* Portal2-21-Comedy_Equals_Tragedy_Plus_Time.mp3 */; };
+		848F02BF284D23A5001F65A6 /* Portal2-18-Adrenal_Vapor.mp3 13-45-59-402.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F0293284D2398001F65A6 /* Portal2-18-Adrenal_Vapor.mp3 13-45-59-402.mp3 */; };
+		848F02C0284D23A5001F65A6 /* Portal2-21-Comedy_Equals_Tragedy_Plus_Time.mp3 13-45-59-406.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F0294284D2399001F65A6 /* Portal2-21-Comedy_Equals_Tragedy_Plus_Time.mp3 13-45-59-406.mp3 */; };
+		848F02C1284D23A5001F65A6 /* Portal2-04-The_Courtesy_Call.mp3 13-45-59-391.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F0295284D2399001F65A6 /* Portal2-04-The_Courtesy_Call.mp3 13-45-59-391.mp3 */; };
+		848F02C2284D23A5001F65A6 /* Portal2-13-15_Acres_of_Broken_Glass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F0296284D239A001F65A6 /* Portal2-13-15_Acres_of_Broken_Glass.mp3 */; };
+		848F02C3284D23A5001F65A6 /* Portal2-16-Hard_Sunshine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F0297284D239A001F65A6 /* Portal2-16-Hard_Sunshine.mp3 */; };
+		848F02C4284D23A5001F65A6 /* Portal2-05-Technical_Difficulties.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F0298284D239A001F65A6 /* Portal2-05-Technical_Difficulties.mp3 */; };
+		848F02C5284D23A5001F65A6 /* Portal2-14-Love_as_a_Construct.mp3 13-45-59-395.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F0299284D239B001F65A6 /* Portal2-14-Love_as_a_Construct.mp3 13-45-59-395.mp3 */; };
+		848F02C6284D23A5001F65A6 /* Portal2-22-Triple_Laser_Phase.mp3 13-45-59-379.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F029A284D239C001F65A6 /* Portal2-22-Triple_Laser_Phase.mp3 13-45-59-379.mp3 */; };
+		848F02C7284D23A5001F65A6 /* Portal2-01-Science_is_Fun.mp3 13-45-59-404.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F029B284D239C001F65A6 /* Portal2-01-Science_is_Fun.mp3 13-45-59-404.mp3 */; };
+		848F02C8284D23A5001F65A6 /* Portal2-15-I_Saw_a_Deer_Today.mp3 13-45-59-388.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F029C284D239C001F65A6 /* Portal2-15-I_Saw_a_Deer_Today.mp3 13-45-59-388.mp3 */; };
+		848F02C9284D23A5001F65A6 /* Portal2-02-Concentration_Enhancing_Menu_Initialiser.mp3 13-45-59-398.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F029D284D239D001F65A6 /* Portal2-02-Concentration_Enhancing_Menu_Initialiser.mp3 13-45-59-398.mp3 */; };
+		848F02CA284D23A5001F65A6 /* Portal2-01-Science_is_Fun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F029E284D239D001F65A6 /* Portal2-01-Science_is_Fun.mp3 */; };
+		848F02CB284D23A5001F65A6 /* Portal2-04-The_Courtesy_Call.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F029F284D239D001F65A6 /* Portal2-04-The_Courtesy_Call.mp3 */; };
+		848F02CC284D23A5001F65A6 /* Portal2-19-Turret_Wife_Serenade.mp3 13-45-59-403.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F02A0284D239E001F65A6 /* Portal2-19-Turret_Wife_Serenade.mp3 13-45-59-403.mp3 */; };
+		848F02CD284D23A5001F65A6 /* Portal2-13-15_Acres_of_Broken_Glass.mp3 13-45-59-390.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F02A1284D239E001F65A6 /* Portal2-13-15_Acres_of_Broken_Glass.mp3 13-45-59-390.mp3 */; };
+		848F02CE284D23A5001F65A6 /* Portal2-11-You_Know_Her.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F02A2284D239F001F65A6 /* Portal2-11-You_Know_Her.mp3 */; };
+		848F02CF284D23A5001F65A6 /* Portal2-12-The_Friendly_Faith_Plate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F02A3284D239F001F65A6 /* Portal2-12-The_Friendly_Faith_Plate.mp3 */; };
+		848F02D0284D23A5001F65A6 /* Portal2-09-The_Future_Starts_With_You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F02A4284D23A0001F65A6 /* Portal2-09-The_Future_Starts_With_You.mp3 */; };
+		848F02D1284D23A5001F65A6 /* Portal2-05-Technical_Difficulties.mp3 13-45-59-382.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F02A5284D23A0001F65A6 /* Portal2-05-Technical_Difficulties.mp3 13-45-59-382.mp3 */; };
+		848F02D2284D23A5001F65A6 /* Portal2-02-Concentration_Enhancing_Menu_Initialiser.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F02A6284D23A0001F65A6 /* Portal2-02-Concentration_Enhancing_Menu_Initialiser.mp3 */; };
+		848F02D3284D23A5001F65A6 /* Portal2-17-I_Am_Different.mp3 13-45-59-373.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F02A7284D23A1001F65A6 /* Portal2-17-I_Am_Different.mp3 13-45-59-373.mp3 */; };
+		848F02D4284D23A5001F65A6 /* Portal2-22-Triple_Laser_Phase.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F02A8284D23A1001F65A6 /* Portal2-22-Triple_Laser_Phase.mp3 */; };
+		848F02D5284D23A5001F65A6 /* Portal2-08-Haunted_Panels.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F02A9284D23A2001F65A6 /* Portal2-08-Haunted_Panels.mp3 */; };
+		848F02D6284D23A5001F65A6 /* Portal2-11-You_Know_Her.mp3 13-45-59-386.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F02AA284D23A2001F65A6 /* Portal2-11-You_Know_Her.mp3 13-45-59-386.mp3 */; };
+		848F02D7284D23A5001F65A6 /* Portal2-16-Hard_Sunshine.mp3 13-45-59-399.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F02AB284D23A2001F65A6 /* Portal2-16-Hard_Sunshine.mp3 13-45-59-399.mp3 */; };
+		848F02D8284D23A5001F65A6 /* Portal2-07-Ghost_of_Rattman.mp3 13-45-59-405.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F02AC284D23A3001F65A6 /* Portal2-07-Ghost_of_Rattman.mp3 13-45-59-405.mp3 */; };
+		848F02D9284D23A5001F65A6 /* Portal2-07-Ghost_of_Rattman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F02AD284D23A3001F65A6 /* Portal2-07-Ghost_of_Rattman.mp3 */; };
+		848F02DA284D23A5001F65A6 /* Portal2-12-The_Friendly_Faith_Plate.mp3 13-45-59-397.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F02AE284D23A4001F65A6 /* Portal2-12-The_Friendly_Faith_Plate.mp3 13-45-59-397.mp3 */; };
+		848F02DB284D23A5001F65A6 /* Portal2-03-999999.mp3 13-45-59-385.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F02AF284D23A4001F65A6 /* Portal2-03-999999.mp3 13-45-59-385.mp3 */; };
+		848F02DC284D23A5001F65A6 /* Portal2-06-Overgrowth.mp3 13-45-59-393.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F02B0284D23A4001F65A6 /* Portal2-06-Overgrowth.mp3 13-45-59-393.mp3 */; };
+		848F02DD284D23A5001F65A6 /* Portal2-18-Adrenal_Vapor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F02B1284D23A5001F65A6 /* Portal2-18-Adrenal_Vapor.mp3 */; };
+		848F02DE284D23A5001F65A6 /* Portal2-20-I_Made_It_All_Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848F02B2284D23A5001F65A6 /* Portal2-20-I_Made_It_All_Up.mp3 */; };
+		848F02E2284D5731001F65A6 /* SavedNotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F02E1284D5731001F65A6 /* SavedNotesTableViewController.swift */; };
+		848F02E4284D576A001F65A6 /* SavedNotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F02E3284D576A001F65A6 /* SavedNotesTableViewCell.swift */; };
 		8495DEF8283ED84F00942994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495DEF7283ED84F00942994 /* AppDelegate.swift */; };
 		8495DEFA283ED84F00942994 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495DEF9283ED84F00942994 /* SceneDelegate.swift */; };
 		8495DEFF283ED84F00942994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8495DEFD283ED84F00942994 /* Main.storyboard */; };
 		8495DF02283ED84F00942994 /* FunZone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8495DF00283ED84F00942994 /* FunZone.xcdatamodeld */; };
 		8495DF04283ED85000942994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8495DF03283ED85000942994 /* Assets.xcassets */; };
 		8495DF07283ED85000942994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8495DF05283ED85000942994 /* LaunchScreen.storyboard */; };
+		849B986428483C46007131E1 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B986328483C46007131E1 /* BookViewController.swift */; };
+		84A6B0DF2848395B006DB699 /* CookBook.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84A6B0DE2848395B006DB699 /* CookBook.pdf */; };
+		84A6B0E128483967006DB699 /* 2017-Fusion-Hybrid-Owner-Manual-version-3_OM_EN-US_02_2017.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84A6B0E028483967006DB699 /* 2017-Fusion-Hybrid-Owner-Manual-version-3_OM_EN-US_02_2017.pdf */; };
+		84A6B0E32848396F006DB699 /* TIS-100 Reference Manual.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84A6B0E22848396F006DB699 /* TIS-100 Reference Manual.pdf */; };
+		84A6B0E528483AA1006DB699 /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6B0E428483AA1006DB699 /* BookCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8437AD3B28401E0900ACA07F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8437AD3D28401E2100ACA07F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		8437AD3F28401E3200ACA07F /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
-		8437AD4128401E4700ACA07F /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
 		8437AD4328401E5A00ACA07F /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		8437AD4528401E6D00ACA07F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		84729EE32847AC880021F061 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
 		84729EE72847C1D50021F061 /* UserInfo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
 		84729EE82847C1D50021F061 /* UserInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84879E822848FF2C006DF9DC /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		84879EC728490637006DF9DC /* MusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
+		84879EC928491BBF006DF9DC /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
+		848F0287284D2393001F65A6 /* Portal2-20-I_Made_It_All_Up.mp3 13-45-59-380.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-20-I_Made_It_All_Up.mp3 13-45-59-380.mp3"; sourceTree = "<group>"; };
+		848F0288284D2394001F65A6 /* Portal2-06-Overgrowth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-06-Overgrowth.mp3"; sourceTree = "<group>"; };
+		848F0289284D2394001F65A6 /* Portal2-10-There_She_Is.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-10-There_She_Is.mp3"; sourceTree = "<group>"; };
+		848F028A284D2395001F65A6 /* Portal2-15-I_Saw_a_Deer_Today.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-15-I_Saw_a_Deer_Today.mp3"; sourceTree = "<group>"; };
+		848F028B284D2395001F65A6 /* Portal2-14-Love_as_a_Construct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-14-Love_as_a_Construct.mp3"; sourceTree = "<group>"; };
+		848F028C284D2396001F65A6 /* Portal2-10-There_She_Is.mp3 13-45-59-401.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-10-There_She_Is.mp3 13-45-59-401.mp3"; sourceTree = "<group>"; };
+		848F028D284D2396001F65A6 /* Portal2-03-999999.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-03-999999.mp3"; sourceTree = "<group>"; };
+		848F028E284D2396001F65A6 /* Portal2-08-Haunted_Panels.mp3 13-45-59-392.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-08-Haunted_Panels.mp3 13-45-59-392.mp3"; sourceTree = "<group>"; };
+		848F028F284D2397001F65A6 /* Portal2-09-The_Future_Starts_With_You.mp3 13-45-59-396.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-09-The_Future_Starts_With_You.mp3 13-45-59-396.mp3"; sourceTree = "<group>"; };
+		848F0290284D2397001F65A6 /* Portal2-19-Turret_Wife_Serenade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-19-Turret_Wife_Serenade.mp3"; sourceTree = "<group>"; };
+		848F0291284D2397001F65A6 /* Portal2-17-I_Am_Different.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-17-I_Am_Different.mp3"; sourceTree = "<group>"; };
+		848F0292284D2398001F65A6 /* Portal2-21-Comedy_Equals_Tragedy_Plus_Time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-21-Comedy_Equals_Tragedy_Plus_Time.mp3"; sourceTree = "<group>"; };
+		848F0293284D2398001F65A6 /* Portal2-18-Adrenal_Vapor.mp3 13-45-59-402.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-18-Adrenal_Vapor.mp3 13-45-59-402.mp3"; sourceTree = "<group>"; };
+		848F0294284D2399001F65A6 /* Portal2-21-Comedy_Equals_Tragedy_Plus_Time.mp3 13-45-59-406.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-21-Comedy_Equals_Tragedy_Plus_Time.mp3 13-45-59-406.mp3"; sourceTree = "<group>"; };
+		848F0295284D2399001F65A6 /* Portal2-04-The_Courtesy_Call.mp3 13-45-59-391.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-04-The_Courtesy_Call.mp3 13-45-59-391.mp3"; sourceTree = "<group>"; };
+		848F0296284D239A001F65A6 /* Portal2-13-15_Acres_of_Broken_Glass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-13-15_Acres_of_Broken_Glass.mp3"; sourceTree = "<group>"; };
+		848F0297284D239A001F65A6 /* Portal2-16-Hard_Sunshine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-16-Hard_Sunshine.mp3"; sourceTree = "<group>"; };
+		848F0298284D239A001F65A6 /* Portal2-05-Technical_Difficulties.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-05-Technical_Difficulties.mp3"; sourceTree = "<group>"; };
+		848F0299284D239B001F65A6 /* Portal2-14-Love_as_a_Construct.mp3 13-45-59-395.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-14-Love_as_a_Construct.mp3 13-45-59-395.mp3"; sourceTree = "<group>"; };
+		848F029A284D239C001F65A6 /* Portal2-22-Triple_Laser_Phase.mp3 13-45-59-379.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-22-Triple_Laser_Phase.mp3 13-45-59-379.mp3"; sourceTree = "<group>"; };
+		848F029B284D239C001F65A6 /* Portal2-01-Science_is_Fun.mp3 13-45-59-404.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-01-Science_is_Fun.mp3 13-45-59-404.mp3"; sourceTree = "<group>"; };
+		848F029C284D239C001F65A6 /* Portal2-15-I_Saw_a_Deer_Today.mp3 13-45-59-388.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-15-I_Saw_a_Deer_Today.mp3 13-45-59-388.mp3"; sourceTree = "<group>"; };
+		848F029D284D239D001F65A6 /* Portal2-02-Concentration_Enhancing_Menu_Initialiser.mp3 13-45-59-398.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-02-Concentration_Enhancing_Menu_Initialiser.mp3 13-45-59-398.mp3"; sourceTree = "<group>"; };
+		848F029E284D239D001F65A6 /* Portal2-01-Science_is_Fun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-01-Science_is_Fun.mp3"; sourceTree = "<group>"; };
+		848F029F284D239D001F65A6 /* Portal2-04-The_Courtesy_Call.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-04-The_Courtesy_Call.mp3"; sourceTree = "<group>"; };
+		848F02A0284D239E001F65A6 /* Portal2-19-Turret_Wife_Serenade.mp3 13-45-59-403.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-19-Turret_Wife_Serenade.mp3 13-45-59-403.mp3"; sourceTree = "<group>"; };
+		848F02A1284D239E001F65A6 /* Portal2-13-15_Acres_of_Broken_Glass.mp3 13-45-59-390.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-13-15_Acres_of_Broken_Glass.mp3 13-45-59-390.mp3"; sourceTree = "<group>"; };
+		848F02A2284D239F001F65A6 /* Portal2-11-You_Know_Her.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-11-You_Know_Her.mp3"; sourceTree = "<group>"; };
+		848F02A3284D239F001F65A6 /* Portal2-12-The_Friendly_Faith_Plate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-12-The_Friendly_Faith_Plate.mp3"; sourceTree = "<group>"; };
+		848F02A4284D23A0001F65A6 /* Portal2-09-The_Future_Starts_With_You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-09-The_Future_Starts_With_You.mp3"; sourceTree = "<group>"; };
+		848F02A5284D23A0001F65A6 /* Portal2-05-Technical_Difficulties.mp3 13-45-59-382.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-05-Technical_Difficulties.mp3 13-45-59-382.mp3"; sourceTree = "<group>"; };
+		848F02A6284D23A0001F65A6 /* Portal2-02-Concentration_Enhancing_Menu_Initialiser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-02-Concentration_Enhancing_Menu_Initialiser.mp3"; sourceTree = "<group>"; };
+		848F02A7284D23A1001F65A6 /* Portal2-17-I_Am_Different.mp3 13-45-59-373.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-17-I_Am_Different.mp3 13-45-59-373.mp3"; sourceTree = "<group>"; };
+		848F02A8284D23A1001F65A6 /* Portal2-22-Triple_Laser_Phase.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-22-Triple_Laser_Phase.mp3"; sourceTree = "<group>"; };
+		848F02A9284D23A2001F65A6 /* Portal2-08-Haunted_Panels.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-08-Haunted_Panels.mp3"; sourceTree = "<group>"; };
+		848F02AA284D23A2001F65A6 /* Portal2-11-You_Know_Her.mp3 13-45-59-386.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-11-You_Know_Her.mp3 13-45-59-386.mp3"; sourceTree = "<group>"; };
+		848F02AB284D23A2001F65A6 /* Portal2-16-Hard_Sunshine.mp3 13-45-59-399.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-16-Hard_Sunshine.mp3 13-45-59-399.mp3"; sourceTree = "<group>"; };
+		848F02AC284D23A3001F65A6 /* Portal2-07-Ghost_of_Rattman.mp3 13-45-59-405.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-07-Ghost_of_Rattman.mp3 13-45-59-405.mp3"; sourceTree = "<group>"; };
+		848F02AD284D23A3001F65A6 /* Portal2-07-Ghost_of_Rattman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-07-Ghost_of_Rattman.mp3"; sourceTree = "<group>"; };
+		848F02AE284D23A4001F65A6 /* Portal2-12-The_Friendly_Faith_Plate.mp3 13-45-59-397.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-12-The_Friendly_Faith_Plate.mp3 13-45-59-397.mp3"; sourceTree = "<group>"; };
+		848F02AF284D23A4001F65A6 /* Portal2-03-999999.mp3 13-45-59-385.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-03-999999.mp3 13-45-59-385.mp3"; sourceTree = "<group>"; };
+		848F02B0284D23A4001F65A6 /* Portal2-06-Overgrowth.mp3 13-45-59-393.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-06-Overgrowth.mp3 13-45-59-393.mp3"; sourceTree = "<group>"; };
+		848F02B1284D23A5001F65A6 /* Portal2-18-Adrenal_Vapor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-18-Adrenal_Vapor.mp3"; sourceTree = "<group>"; };
+		848F02B2284D23A5001F65A6 /* Portal2-20-I_Made_It_All_Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Portal2-20-I_Made_It_All_Up.mp3"; sourceTree = "<group>"; };
+		848F02E1284D5731001F65A6 /* SavedNotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedNotesTableViewController.swift; sourceTree = "<group>"; };
+		848F02E3284D576A001F65A6 /* SavedNotesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedNotesTableViewCell.swift; sourceTree = "<group>"; };
 		8495DEF4283ED84F00942994 /* FunZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8495DEF7283ED84F00942994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8495DEF9283ED84F00942994 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +143,11 @@
 		8495DF03283ED85000942994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8495DF06283ED85000942994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8495DF08283ED85000942994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849B986328483C46007131E1 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		84A6B0DE2848395B006DB699 /* CookBook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = CookBook.pdf; path = ../../../../../Downloads/CookBook.pdf; sourceTree = "<group>"; };
+		84A6B0E028483967006DB699 /* 2017-Fusion-Hybrid-Owner-Manual-version-3_OM_EN-US_02_2017.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "2017-Fusion-Hybrid-Owner-Manual-version-3_OM_EN-US_02_2017.pdf"; path = "../../../../../Downloads/2017-Fusion-Hybrid-Owner-Manual-version-3_OM_EN-US_02_2017.pdf"; sourceTree = "<group>"; };
+		84A6B0E22848396F006DB699 /* TIS-100 Reference Manual.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "TIS-100 Reference Manual.pdf"; path = "../../../../../Downloads/TIS-100 Reference Manual.pdf"; sourceTree = "<group>"; };
+		84A6B0E428483AA1006DB699 /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +161,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84879E8428490338006DF9DC /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				848F029E284D239D001F65A6 /* Portal2-01-Science_is_Fun.mp3 */,
+				848F029B284D239C001F65A6 /* Portal2-01-Science_is_Fun.mp3 13-45-59-404.mp3 */,
+				848F02A6284D23A0001F65A6 /* Portal2-02-Concentration_Enhancing_Menu_Initialiser.mp3 */,
+				848F029D284D239D001F65A6 /* Portal2-02-Concentration_Enhancing_Menu_Initialiser.mp3 13-45-59-398.mp3 */,
+				848F028D284D2396001F65A6 /* Portal2-03-999999.mp3 */,
+				848F02AF284D23A4001F65A6 /* Portal2-03-999999.mp3 13-45-59-385.mp3 */,
+				848F029F284D239D001F65A6 /* Portal2-04-The_Courtesy_Call.mp3 */,
+				848F0295284D2399001F65A6 /* Portal2-04-The_Courtesy_Call.mp3 13-45-59-391.mp3 */,
+				848F0298284D239A001F65A6 /* Portal2-05-Technical_Difficulties.mp3 */,
+				848F02A5284D23A0001F65A6 /* Portal2-05-Technical_Difficulties.mp3 13-45-59-382.mp3 */,
+				848F0288284D2394001F65A6 /* Portal2-06-Overgrowth.mp3 */,
+				848F02B0284D23A4001F65A6 /* Portal2-06-Overgrowth.mp3 13-45-59-393.mp3 */,
+				848F02AD284D23A3001F65A6 /* Portal2-07-Ghost_of_Rattman.mp3 */,
+				848F02AC284D23A3001F65A6 /* Portal2-07-Ghost_of_Rattman.mp3 13-45-59-405.mp3 */,
+				848F02A9284D23A2001F65A6 /* Portal2-08-Haunted_Panels.mp3 */,
+				848F028E284D2396001F65A6 /* Portal2-08-Haunted_Panels.mp3 13-45-59-392.mp3 */,
+				848F02A4284D23A0001F65A6 /* Portal2-09-The_Future_Starts_With_You.mp3 */,
+				848F028F284D2397001F65A6 /* Portal2-09-The_Future_Starts_With_You.mp3 13-45-59-396.mp3 */,
+				848F0289284D2394001F65A6 /* Portal2-10-There_She_Is.mp3 */,
+				848F028C284D2396001F65A6 /* Portal2-10-There_She_Is.mp3 13-45-59-401.mp3 */,
+				848F02A2284D239F001F65A6 /* Portal2-11-You_Know_Her.mp3 */,
+				848F02AA284D23A2001F65A6 /* Portal2-11-You_Know_Her.mp3 13-45-59-386.mp3 */,
+				848F02A3284D239F001F65A6 /* Portal2-12-The_Friendly_Faith_Plate.mp3 */,
+				848F02AE284D23A4001F65A6 /* Portal2-12-The_Friendly_Faith_Plate.mp3 13-45-59-397.mp3 */,
+				848F0296284D239A001F65A6 /* Portal2-13-15_Acres_of_Broken_Glass.mp3 */,
+				848F02A1284D239E001F65A6 /* Portal2-13-15_Acres_of_Broken_Glass.mp3 13-45-59-390.mp3 */,
+				848F028B284D2395001F65A6 /* Portal2-14-Love_as_a_Construct.mp3 */,
+				848F0299284D239B001F65A6 /* Portal2-14-Love_as_a_Construct.mp3 13-45-59-395.mp3 */,
+				848F028A284D2395001F65A6 /* Portal2-15-I_Saw_a_Deer_Today.mp3 */,
+				848F029C284D239C001F65A6 /* Portal2-15-I_Saw_a_Deer_Today.mp3 13-45-59-388.mp3 */,
+				848F0297284D239A001F65A6 /* Portal2-16-Hard_Sunshine.mp3 */,
+				848F02AB284D23A2001F65A6 /* Portal2-16-Hard_Sunshine.mp3 13-45-59-399.mp3 */,
+				848F0291284D2397001F65A6 /* Portal2-17-I_Am_Different.mp3 */,
+				848F02A7284D23A1001F65A6 /* Portal2-17-I_Am_Different.mp3 13-45-59-373.mp3 */,
+				848F02B1284D23A5001F65A6 /* Portal2-18-Adrenal_Vapor.mp3 */,
+				848F0293284D2398001F65A6 /* Portal2-18-Adrenal_Vapor.mp3 13-45-59-402.mp3 */,
+				848F0290284D2397001F65A6 /* Portal2-19-Turret_Wife_Serenade.mp3 */,
+				848F02A0284D239E001F65A6 /* Portal2-19-Turret_Wife_Serenade.mp3 13-45-59-403.mp3 */,
+				848F02B2284D23A5001F65A6 /* Portal2-20-I_Made_It_All_Up.mp3 */,
+				848F0287284D2393001F65A6 /* Portal2-20-I_Made_It_All_Up.mp3 13-45-59-380.mp3 */,
+				848F0292284D2398001F65A6 /* Portal2-21-Comedy_Equals_Tragedy_Plus_Time.mp3 */,
+				848F0294284D2399001F65A6 /* Portal2-21-Comedy_Equals_Tragedy_Plus_Time.mp3 13-45-59-406.mp3 */,
+				848F02A8284D23A1001F65A6 /* Portal2-22-Triple_Laser_Phase.mp3 */,
+				848F029A284D239C001F65A6 /* Portal2-22-Triple_Laser_Phase.mp3 13-45-59-379.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
 		8495DEEB283ED84F00942994 = {
 			isa = PBXGroup;
 			children = (
@@ -76,13 +233,21 @@
 		8495DEF6283ED84F00942994 /* FunZone */ = {
 			isa = PBXGroup;
 			children = (
+				84879E8428490338006DF9DC /* Music */,
+				84A6B0DD28483943006DB699 /* Books */,
 				8495DEF7283ED84F00942994 /* AppDelegate.swift */,
 				8495DEF9283ED84F00942994 /* SceneDelegate.swift */,
+				849B986328483C46007131E1 /* BookViewController.swift */,
+				84A6B0E428483AA1006DB699 /* BookCollectionViewCell.swift */,
+				84879E822848FF2C006DF9DC /* PDFViewController.swift */,
 				8437AD3B28401E0900ACA07F /* LoginViewController.swift */,
 				8437AD3D28401E2100ACA07F /* SignUpViewController.swift */,
 				8437AD3F28401E3200ACA07F /* MusicViewController.swift */,
-				8437AD4128401E4700ACA07F /* BooksViewController.swift */,
+				84879EC728490637006DF9DC /* MusicTableViewCell.swift */,
+				84879EC928491BBF006DF9DC /* MusicPlayerViewController.swift */,
 				8437AD4328401E5A00ACA07F /* NotesViewController.swift */,
+				848F02E1284D5731001F65A6 /* SavedNotesTableViewController.swift */,
+				848F02E3284D576A001F65A6 /* SavedNotesTableViewCell.swift */,
 				8437AD4528401E6D00ACA07F /* SearchViewController.swift */,
 				84729EE32847AC880021F061 /* DBHelper.swift */,
 				8495DEFD283ED84F00942994 /* Main.storyboard */,
@@ -92,6 +257,16 @@
 				8495DF00283ED84F00942994 /* FunZone.xcdatamodeld */,
 			);
 			path = FunZone;
+			sourceTree = "<group>";
+		};
+		84A6B0DD28483943006DB699 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				84A6B0E22848396F006DB699 /* TIS-100 Reference Manual.pdf */,
+				84A6B0E028483967006DB699 /* 2017-Fusion-Hybrid-Owner-Manual-version-3_OM_EN-US_02_2017.pdf */,
+				84A6B0DE2848395B006DB699 /* CookBook.pdf */,
+			);
+			path = Books;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +327,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848F02B8284D23A5001F65A6 /* Portal2-10-There_She_Is.mp3 13-45-59-401.mp3 in Resources */,
+				848F02C8284D23A5001F65A6 /* Portal2-15-I_Saw_a_Deer_Today.mp3 13-45-59-388.mp3 in Resources */,
+				848F02DE284D23A5001F65A6 /* Portal2-20-I_Made_It_All_Up.mp3 in Resources */,
+				848F02DD284D23A5001F65A6 /* Portal2-18-Adrenal_Vapor.mp3 in Resources */,
+				848F02B5284D23A5001F65A6 /* Portal2-10-There_She_Is.mp3 in Resources */,
+				848F02B7284D23A5001F65A6 /* Portal2-14-Love_as_a_Construct.mp3 in Resources */,
+				848F02C4284D23A5001F65A6 /* Portal2-05-Technical_Difficulties.mp3 in Resources */,
+				848F02B3284D23A5001F65A6 /* Portal2-20-I_Made_It_All_Up.mp3 13-45-59-380.mp3 in Resources */,
+				848F02CB284D23A5001F65A6 /* Portal2-04-The_Courtesy_Call.mp3 in Resources */,
+				848F02CC284D23A5001F65A6 /* Portal2-19-Turret_Wife_Serenade.mp3 13-45-59-403.mp3 in Resources */,
+				848F02CE284D23A5001F65A6 /* Portal2-11-You_Know_Her.mp3 in Resources */,
+				848F02BB284D23A5001F65A6 /* Portal2-09-The_Future_Starts_With_You.mp3 13-45-59-396.mp3 in Resources */,
+				848F02D2284D23A5001F65A6 /* Portal2-02-Concentration_Enhancing_Menu_Initialiser.mp3 in Resources */,
 				8495DF07283ED85000942994 /* LaunchScreen.storyboard in Resources */,
+				848F02D6284D23A5001F65A6 /* Portal2-11-You_Know_Her.mp3 13-45-59-386.mp3 in Resources */,
+				848F02DA284D23A5001F65A6 /* Portal2-12-The_Friendly_Faith_Plate.mp3 13-45-59-397.mp3 in Resources */,
+				848F02BA284D23A5001F65A6 /* Portal2-08-Haunted_Panels.mp3 13-45-59-392.mp3 in Resources */,
+				848F02CA284D23A5001F65A6 /* Portal2-01-Science_is_Fun.mp3 in Resources */,
+				848F02C2284D23A5001F65A6 /* Portal2-13-15_Acres_of_Broken_Glass.mp3 in Resources */,
+				848F02D9284D23A5001F65A6 /* Portal2-07-Ghost_of_Rattman.mp3 in Resources */,
+				848F02DC284D23A5001F65A6 /* Portal2-06-Overgrowth.mp3 13-45-59-393.mp3 in Resources */,
+				848F02DB284D23A5001F65A6 /* Portal2-03-999999.mp3 13-45-59-385.mp3 in Resources */,
+				848F02C3284D23A5001F65A6 /* Portal2-16-Hard_Sunshine.mp3 in Resources */,
+				848F02BC284D23A5001F65A6 /* Portal2-19-Turret_Wife_Serenade.mp3 in Resources */,
+				848F02CD284D23A5001F65A6 /* Portal2-13-15_Acres_of_Broken_Glass.mp3 13-45-59-390.mp3 in Resources */,
+				848F02B4284D23A5001F65A6 /* Portal2-06-Overgrowth.mp3 in Resources */,
+				84A6B0E32848396F006DB699 /* TIS-100 Reference Manual.pdf in Resources */,
+				848F02BF284D23A5001F65A6 /* Portal2-18-Adrenal_Vapor.mp3 13-45-59-402.mp3 in Resources */,
+				848F02B6284D23A5001F65A6 /* Portal2-15-I_Saw_a_Deer_Today.mp3 in Resources */,
+				848F02D8284D23A5001F65A6 /* Portal2-07-Ghost_of_Rattman.mp3 13-45-59-405.mp3 in Resources */,
+				848F02C5284D23A5001F65A6 /* Portal2-14-Love_as_a_Construct.mp3 13-45-59-395.mp3 in Resources */,
+				848F02C1284D23A5001F65A6 /* Portal2-04-The_Courtesy_Call.mp3 13-45-59-391.mp3 in Resources */,
+				848F02D5284D23A5001F65A6 /* Portal2-08-Haunted_Panels.mp3 in Resources */,
 				8495DF04283ED85000942994 /* Assets.xcassets in Resources */,
+				848F02D0284D23A5001F65A6 /* Portal2-09-The_Future_Starts_With_You.mp3 in Resources */,
+				848F02D1284D23A5001F65A6 /* Portal2-05-Technical_Difficulties.mp3 13-45-59-382.mp3 in Resources */,
+				84A6B0E128483967006DB699 /* 2017-Fusion-Hybrid-Owner-Manual-version-3_OM_EN-US_02_2017.pdf in Resources */,
 				8495DEFF283ED84F00942994 /* Main.storyboard in Resources */,
+				848F02D4284D23A5001F65A6 /* Portal2-22-Triple_Laser_Phase.mp3 in Resources */,
+				848F02D3284D23A5001F65A6 /* Portal2-17-I_Am_Different.mp3 13-45-59-373.mp3 in Resources */,
+				848F02CF284D23A5001F65A6 /* Portal2-12-The_Friendly_Faith_Plate.mp3 in Resources */,
+				848F02C0284D23A5001F65A6 /* Portal2-21-Comedy_Equals_Tragedy_Plus_Time.mp3 13-45-59-406.mp3 in Resources */,
+				848F02C9284D23A5001F65A6 /* Portal2-02-Concentration_Enhancing_Menu_Initialiser.mp3 13-45-59-398.mp3 in Resources */,
+				848F02BE284D23A5001F65A6 /* Portal2-21-Comedy_Equals_Tragedy_Plus_Time.mp3 in Resources */,
+				84A6B0DF2848395B006DB699 /* CookBook.pdf in Resources */,
+				848F02B9284D23A5001F65A6 /* Portal2-03-999999.mp3 in Resources */,
+				848F02BD284D23A5001F65A6 /* Portal2-17-I_Am_Different.mp3 in Resources */,
+				848F02C7284D23A5001F65A6 /* Portal2-01-Science_is_Fun.mp3 13-45-59-404.mp3 in Resources */,
+				848F02D7284D23A5001F65A6 /* Portal2-16-Hard_Sunshine.mp3 13-45-59-399.mp3 in Resources */,
+				848F02C6284D23A5001F65A6 /* Portal2-22-Triple_Laser_Phase.mp3 13-45-59-379.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,17 +388,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				8437AD4028401E3200ACA07F /* MusicViewController.swift in Sources */,
+				84A6B0E528483AA1006DB699 /* BookCollectionViewCell.swift in Sources */,
 				8437AD3C28401E0900ACA07F /* LoginViewController.swift in Sources */,
+				848F02E2284D5731001F65A6 /* SavedNotesTableViewController.swift in Sources */,
 				8495DF02283ED84F00942994 /* FunZone.xcdatamodeld in Sources */,
 				84729EE92847C1D50021F061 /* UserInfo+CoreDataClass.swift in Sources */,
+				84879EC828490637006DF9DC /* MusicTableViewCell.swift in Sources */,
+				84879E832848FF2C006DF9DC /* PDFViewController.swift in Sources */,
+				84879ECA28491BC0006DF9DC /* MusicPlayerViewController.swift in Sources */,
 				8437AD4628401E6D00ACA07F /* SearchViewController.swift in Sources */,
 				8495DEF8283ED84F00942994 /* AppDelegate.swift in Sources */,
 				84729EEA2847C1D50021F061 /* UserInfo+CoreDataProperties.swift in Sources */,
 				8437AD4428401E5A00ACA07F /* NotesViewController.swift in Sources */,
+				848F02E4284D576A001F65A6 /* SavedNotesTableViewCell.swift in Sources */,
+				849B986428483C46007131E1 /* BookViewController.swift in Sources */,
 				8495DEFA283ED84F00942994 /* SceneDelegate.swift in Sources */,
 				84729EE42847AC880021F061 /* DBHelper.swift in Sources */,
 				8437AD3E28401E2100ACA07F /* SignUpViewController.swift in Sources */,
-				8437AD4228401E4700ACA07F /* BooksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
