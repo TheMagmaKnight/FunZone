@@ -46,10 +46,12 @@ class SavedNotesTableViewController: UITableViewController {
             if indexPath.row == index{
                 //noteTextPass = notesArry![indexPath.row]
                 let storyObject = UIStoryboard(name: "Main", bundle: nil)
-//                let notesView = storyObject.instantiateViewController(withIdentifier: "Notes") as! NotesViewController
+                let notesView = storyObject.instantiateViewController(withIdentifier: "Notes") as! NotesViewController
                 //let thisView = storyObject.instantiateViewController(withIdentifier: "SavedNotes") as! SavedNotesTableViewController
                 noteTextPass.set(notesArry![indexPath.row] as String, forKey: "textPassKey") //= notesArry![indexPath.row]
                 print(noteTextPass)
+                
+                
                 //notesView.noteText = notesArry![indexPath.row]
                 dismiss(animated: true, completion:nil) //{notesView.noteText = thisView.noteTextPass;notesView.reload()})
                 //show(notesView, sender: (Any).self)
